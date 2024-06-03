@@ -11,12 +11,14 @@ zplug "akarzim/zsh-docker-aliases"
 ```
 
 ### With [Oh My Zsh](https://ohmyz.sh/):
+
 ```sh
 git clone https://github.com/akarzim/zsh-docker-aliases.git  ~/.oh-my-zsh/custom/plugins/zsh-docker-aliases
 # then add `zsh-docker-aliases` to `plugins` in your .zshrc
 ```
 
 ### With [zinit][4]
+
 ```sh
 zinit light akarzim/zsh-docker-aliases
 ```
@@ -75,32 +77,32 @@ zinit light akarzim/zsh-docker-aliases
 
 #### container (C)
 
-- `dkC` Manage containers
-- `dkCa` Attach to a running container
-- `dkCcp` Copy files/folders between a container and the local filesystem
-- `dkCd` Inspect changes on a container's filesystem
-- `dkCe` Run a command in a running container
-- `dkCE` Run an interactive command in a running container
-- `dkCin` Display detailed information on one or more containers
-- `dkCk` Kill one or more running containers
-- `dkCl` Fetch the logs of a container
-- `dkCL` Fetch and follow (`-f`) the logs of a container
-- `dkCls` List containers
-- `dkCp` Pause all processes within one or more containers
-- `dkCpr` Remove all stopped containers
-- `dkCrn` Rename a container
-- `dkCS` Restart one or more containers
-- `dkCrm` Remove one or more containers
-- `dkCr` Run a command in a new container
-- `dkCR` Run an interactive command in a new container and automatically remove the container when it exits
-- `dkCRe` like `dkCR` and set entry point to `/bin/bash`
-- `dkCs` Start one or more stopped containers
-- `dkCss` Display a live stream of container(s) resource usage statistics
-- `dkCx` Stop one or more running containers
-- `dkCtop` Display the running processes of a container
-- `dkCP` Unpause all processes within one or more containers
-- `dkCup` Update configuration of one or more containers
-- `dkCw` Block until one or more containers stop, then print their exit codes
+- `dkc` Manage containers
+- `dkca` Attach to a running container
+- `dkccp` Copy files/folders between a container and the local filesystem
+- `dkcd` Inspect changes on a container's filesystem
+- `dkce` Run a command in a running container
+- `dkcE` Run an interactive command in a running container
+- `dkcin` Display detailed information on one or more containers
+- `dkck` Kill one or more running containers
+- `dkcl` Fetch the logs of a container
+- `dkcL` Fetch and follow (`-f`) the logs of a container
+- `dkcls` List containers
+- `dkcp` Pause all processes within one or more containers
+- `dkcpr` Remove all stopped containers
+- `dkcrn` Rename a container
+- `dkcS` Restart one or more containers
+- `dkcrm` Remove one or more containers
+- `dkcr` Run a command in a new container
+- `dkcR` Run an interactive command in a new container and automatically remove the container when it exits
+- `dkcRe` like `dkcR` and set entry point to `/bin/bash`
+- `dkcs` Start one or more stopped containers
+- `dkcss` Display a live stream of container(s) resource usage statistics
+- `dkcx` Stop one or more running containers
+- `dkctop` Display the running processes of a container
+- `dkcP` Unpause all processes within one or more containers
+- `dkcup` Update configuration of one or more containers
+- `dkcw` Block until one or more containers stop, then print their exit codes
 
 #### image (I)
 
@@ -178,45 +180,44 @@ zinit light akarzim/zsh-docker-aliases
 
 ### Docker Compose
 
-> Note from docker-compose v1.29.2:
-> Except for the Linux platform, Docker Compose is now in the Docker CLI.
+> Note from docker-compose v1.29.2: Except for the Linux platform, Docker Compose is now in the Docker CLI.
 
-- `dkc` is short for `docker-compose`
-- `dkcb` Build or rebuild services
-- `dkcB` Build or rebuild services and do not use cache when building the image
-- `dkccp` Copy files/folders between a service container and the local filesystem
-- `dkccr` Creates containers for a service
-- `dkccv` Converts the compose file to platform's canonical format
-- `dkcd` Stop and remove containers, networks, images, and volumes
-- `dkce` Execute a command in a running container
-- `dkcev` Receive real time events from containers
-- `dkci` List images used by the created containers
-- `dkck` Kill containers
-- `dkcl` View output from containers
-- `dkcL` View and follow (`-f`) output from containers
-- `dkcls` List running compose projects (or alias to `dkcps` under Linux)
-- `dkcp` Pause services
-- `dkcP` Unpause services
-- `dkcpl` Pull service images
-- `dkcph` Push service images
-- `dkcpo` Print the public port for a port binding
-- `dkcps` List containers
-- `dkcr` Run a one-off command
-- `dkcR` Run a one-off command and remove container after run.
-- `dkcrm` Remove stopped containers
-- `dkcs` Start services
-- `dkcsc` Set number of containers for a service
-- `dkcS` Restart services
-- `dkct` Display the running processes
-- `dkcu` Create and start containers
-- `dkcU` Create and start containers in detached mode:
-           Run containers in the background, print new container names
-- `dkcv` Show the Docker-Compose version information
-- `dkcx` Stop services
+- `dkC` is short for `docker-compose`
+- `dkCb` Build or rebuild services
+- `dkCB` Build or rebuild services and do not use cache when building the image
+- `dkCcp` Copy files/folders between a service container and the local filesystem
+- `dkCcr` Creates containers for a service
+- `dkCcv` Converts the compose file to platform's canonical format
+- `dkCd` Stop and remove containers, networks, images, and volumes
+- `dkCe` Execute a command in a running container
+- `dkCev` Receive real time events from containers
+- `dkCi` List images used by the created containers
+- `dkCk` Kill containers
+- `dkCl` View output from containers
+- `dkCL` View and follow (`-f`) output from containers
+- `dkCls` List running compose projects (or alias to `dkCps` under Linux)
+- `dkCp` Pause services
+- `dkCP` Unpause services
+- `dkCpl` Pull service images
+- `dkCph` Push service images
+- `dkCpo` Print the public port for a port binding
+- `dkCps` List containers
+- `dkCr` Run a one-off command
+- `dkCR` Run a one-off command and remove container after run.
+- `dkCrm` Remove stopped containers
+- `dkCs` Start services
+- `dkCsc` Set number of containers for a service
+- `dkCS` Restart services
+- `dkCt` Display the running processes
+- `dkCu` Create and start containers
+- `dkCU` Create and start containers in detached mode: Run containers in the background, print new container
+  names
+- `dkCv` Show the Docker-Compose version information
+- `dkCx` Stop services
 
 ## Author
 
-*The author of this module should be contacted via the [issue tracker][3].*
+_The author of this module should be contacted via the [issue tracker][3]._
 
 - [François Vantomme](https://github.com/akarzim)
 
